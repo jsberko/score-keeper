@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="gameContainer">
+        <img src="./images/paddle.jpg" alt="ping pong paddle with ball">
+        <p>Ping Pong Score Keeper</p>
+        <div id="gameInfo">
+            <h1 id="gameDisplay"><span id="player1nameDisplay">Player 1: </span><span id="player1scoreDisplay">0</span>
+                to
+                <span id="player2nameDisplay">Player 2: </span><span id="player2scoreDisplay">0</span>
+            </h1>
+            <div class="gameParametersContainer">
+                <ul id="gameLog">
+                </ul>
+                <label for="selectRounds">How Many Rounds To Play </label>
+                <select name="" id="selectRounds">
+                    <option value="" selected>Rounds:</option>
+                    <option value="1">1</option>
+                    <option value="2">Best of 3</option>
+                    <option value="3">Best of 5</option>
+                </select>
+                <label for="selectWinningScore">Playing To </label>
+                <select name="" id="selectWinningScore">
+                    <option value="" selected>Play to:</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+        </div>
+        <div class="buttonsContainer">
+            <button id="player1scores" class="button">+1 Player One</button>
+            <button id="player2scores" class="button">+1 Player Two</button>
+            <button id="newGame" class="button">New Game</button>
+            <button id="startGame" class="button">Start Game</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

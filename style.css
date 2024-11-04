@@ -1,0 +1,59 @@
+* {
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+.turnRed {
+    color: red;
+}
+
+.turnGreen {
+    color: green;
+}
+
+.turnBlack {
+    color: black;
+}
+
+.gameContainer {
+    margin: 25px auto;
+    width: 600px;
+    border: black 3px solid;
+}
+
+.buttonsContainer {
+    display: flex;
+}
+
+.button {
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.image {}
+
+p {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: black 3px solid;
+    border-top: black 3px solid;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    padding: 20px 0;
+}
+
+.gameParametersContainer {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+ul {
+    padding-bottom: 20px;
+}
